@@ -39,15 +39,15 @@ KreoBoot is a lightweight, universal bootable media creator designed to make the
 
 You can run KreoBoot directly from the terminal without needing to clone the repository or download the files manually.
 
-### Linux and macOS
+### ![linux](https://www.readmecodegen.com/api/social-icon?name=linux&size=16) ![apple](https://www.readmecodegen.com/api/social-icon?name=apple&size=16&color=%23ffffff) Linux and macOS
 
-Open your terminal and execute the following command. The script will automatically request root permissions (via sudo) for disk manipulation.
+![terminal](https://www.readmecodegen.com/api/social-icon?name=terminal&size=16) Open your terminal and execute the following command. The script will automatically request root permissions (via sudo) for disk manipulation.
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/KREASIOKA/KreoBoot/main/src/KreoBoot.sh | sudo bash
 ```
 
-### Windows (Beta)
+### ![windows](https://www.readmecodegen.com/api/social-icon?name=windows&size=16) Windows (Beta)
 
 The Windows version is currently in active development but is fully functional. Open **PowerShell** and execute the following command to securely download and run the application in memory:
 
@@ -62,14 +62,14 @@ KreoBoot utilizes native system tools to ensure maximum stability without requir
 
 ### Linux
 The following standard packages are typically pre-installed. If not, they can be installed via your package manager (apt, dnf, pacman):
-- Bash (v4.0+)
+- ![gnubash](https://www.readmecodegen.com/api/social-icon?name=gnubash&size=16) Bash (v4.0+)
 - coreutils (lsblk, findmnt, wipefs, blkid, partprobe)
 - parted, udev, rsync
 - wimlib (for splitting large Windows WIM files)
 - mkfs utilities (mkfs.fat, mkfs.exfat, mkfs.ntfs)
 
 ### macOS
-- Bash
+- ![gnubash](https://www.readmecodegen.com/api/social-icon?name=gnubash&size=16) Bash
 - Built-in diskutil and hdiutil
 - rsync
 - wimlib (installable via Homebrew: `brew install wimlib`)
